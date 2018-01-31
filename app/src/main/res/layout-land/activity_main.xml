@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintHorizontal_weight="2"
+        android:orientation="horizontal">
+        <fragment
+            android:id="@+id/fragAnim"
+            android:name="com.example.cdsm.tp_12fragment.fragAnim"
+            tools:layout="@layout/fragment_frag_anim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <fragment
+            android:id="@+id/fragDesc"
+            android:name="com.example.cdsm.tp_12fragment.fragDesc"
+            tools:layout="@layout/fragment_frag_desc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

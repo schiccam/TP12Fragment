@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cdsm.tp_12fragment.fragAnim"    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <ImageButton
+            android:id="@+id/buttonChien"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/chien"
+            android:scaleType="centerInside"/>
+        <ImageButton
+            android:id="@+id/buttonChat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/chat"
+            android:scaleType="centerInside"/>
+    </LinearLayout>
+
+</FrameLayout>
