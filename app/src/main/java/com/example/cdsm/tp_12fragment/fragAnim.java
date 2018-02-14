@@ -6,6 +6,7 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -78,6 +79,7 @@ public class fragAnim extends Fragment {
                     fragDesc fragment = (fragDesc) getActivity().getFragmentManager().findFragmentById(R.id.fragDesc);
                     fragment.setChat();
                 }
+                Log.i("Test","TestLog");
             }
         });
     }

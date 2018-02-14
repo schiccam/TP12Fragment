@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TP12Fragment.iml" filepath="$PROJECT_DIR$/.idea/TP12Fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP12Fragment.iml" filepath="$PROJECT_DIR$/TP12Fragment.iml" />
       <module fileurl="file://D:\AndroidStudioProjects\TP12Fragment\TP12Fragment.iml" filepath="D:\AndroidStudioProjects\TP12Fragment\TP12Fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TP12Fragment.iml" filepath="$PROJECT_DIR$/.idea/TP12Fragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://D:\AndroidStudioProjects\TP12Fragment\app\app.iml" filepath="D:\AndroidStudioProjects\TP12Fragment\app\app.iml" />
     </modules>
